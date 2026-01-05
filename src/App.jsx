@@ -20,12 +20,21 @@ const TransactionAnalyzer = () => {
   const subcategoryGroups = {
     'GROCERY': {
       'Tesco': ['TESCO'],
-      'Sainsburys': ['SAINSBURY']
+      'Sainsburys': ['SAINSBURY'],
+      'Asda': ['ASDA'],
+      'Lidl': ['LIDL'],
+      'Aldi': ['ALDI'],
+      'Morrisons': ['MORRISONS', 'MORRISON'],
+      'Waitrose': ['WAITROSE'],
+      'Marks & Spencer': ['M&S', 'MARKS & SPENCER', 'MARKS AND SPENCER'],
+      'Co-op': ['CO-OP', 'COOP', 'CO OP'],
+      'Costco': ['COSTCO'],
+      'Iceland': ['ICELAND']
     },
     'UTILITIES': {
-      'Energy': ['OCTOPUS', 'BRITISH GAS', 'EON', 'EDF'],
-      'Internet': ['BT', 'VIRGIN MEDIA', 'SKY', 'TALKTALK'],
-      'Water': ['THAMES WATER', 'SEVERN TRENT', 'UNITED UTILITIES']
+      'Energy': ['OCTOPUS', 'BRITISH GAS', 'EON', 'EDF', 'BULB', 'OVO'],
+      'Internet': ['BT', 'VIRGIN MEDIA', 'SKY', 'TALKTALK', 'PLUSNET'],
+      'Water': ['THAMES WATER', 'SEVERN TRENT', 'UNITED UTILITIES', 'YORKSHIRE WATER']
     }
   };
 
